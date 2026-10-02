@@ -1,0 +1,15 @@
+@mixin button {
+    display: block;
+    color: $text-white;
+    padding: 12px 30px;
+    font-size: 18px;
+    margin: auto;
+    margin-bottom: $p-6;
+    width: 155px;
+    background-color: $bg-dark;
+    text-decoration: none;
+    &:hover{
+        background-color: $bg-gray;
+        color: black;
+    }
+}

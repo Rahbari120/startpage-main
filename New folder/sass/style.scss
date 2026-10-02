@@ -1,0 +1,69 @@
+@import 'vars';
+@import 'mixin';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $fonts;
+}
+
+nav{
+    background-color: $bg-primary;
+    box-shadow: $shadow;
+    li{
+        &:hover{
+            background-color: $bg-white;
+        }
+    }
+}
+
+header {
+    background-color: $bg-primary;
+    padding: $p-5;
+    text-align: center;
+    h1 {
+        padding-top: $p-5;
+        color: $text-white;
+        font-size: 65px;
+    }
+    p{
+        color: $text-white;
+        padding: $p-4;
+        font-size: $f-size;
+    }
+    a{
+        @include button;
+    }
+}
+
+main{
+    section{
+    padding: $p-6;
+    align-items: center;
+    }
+    #section2{
+        background-color: $bg-white;
+    }
+}
+
+article{
+    h2{
+        font-size: 40px;
+        padding-bottom: $p-5;
+    }
+    .paragraf{
+        color: $text-secondry;
+        padding-top: $p-4;
+    }
+}
+
+footer{
+    text-align: center;
+    p{
+        color: $text-white;
+        background-color: $bg-secondry;
+        padding: $p-6;
+        font-size: $f-size;
+    }
+}
