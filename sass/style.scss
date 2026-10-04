@@ -66,4 +66,12 @@ footer{
         padding: $p-6;
         font-size: $f-size;
     }
+    a{
+        color: $text-dark;
+        padding-bottom: $p-5;
+    }
+    #icons{
+        padding-bottom: $p-3;
+        padding-top: $p-4;
+    }
 }
