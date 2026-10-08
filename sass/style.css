@@ -15,7 +15,8 @@ nav li:hover {
 
 header {
   background-color: #f44336;
-  padding: 50px;
+  padding-top: 50px;
+  padding-bottom: 125px;
   text-align: center;
 }
 header h1 {
@@ -71,10 +72,17 @@ footer p {
   font-size: 25px;
 }
 footer a {
-  color: #000000;
-  padding-bottom: 50px;
+  color: #858585;
+  padding-bottom: 80px;
+}
+footer span {
+  color: #858585;
 }
 footer #icons {
-  padding-bottom: 15px;
-  padding-top: 25px;
+  padding-bottom: 50px;
+  padding-top: 80px;
+  color: #656565;
+}
+footer i:hover {
+  color: #858585;
 }/*# sourceMappingURL=style.css.map */

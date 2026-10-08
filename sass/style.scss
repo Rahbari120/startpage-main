@@ -20,12 +20,13 @@ nav{
 
 header {
     background-color: $bg-primary;
-    padding: $p-5;
+    padding-top: $p-5;
+    padding-bottom: $p-8;
     text-align: center;
     h1 {
         padding-top: $p-5;
         color: $text-white;
-        font-size: 65px;
+        font-size: $f-size-h;
     }
     p{
         color: $text-white;
@@ -49,7 +50,7 @@ main{
 
 article{
     h2{
-        font-size: 40px;
+        font-size: $f-size-a;
         padding-bottom: $p-5;
     }
     .paragraf{
@@ -67,11 +68,20 @@ footer{
         font-size: $f-size;
     }
     a{
-        color: $text-dark;
-        padding-bottom: $p-5;
+        color: $text-secondry;
+        padding-bottom: $p-7;
+    }
+    span{
+        color: $text-secondry;
     }
     #icons{
-        padding-bottom: $p-3;
-        padding-top: $p-4;
+        padding-bottom: $p-5;
+        padding-top: $p-7;
+        color: $text-gray;
+    }
+    i{
+        &:hover{
+            color: $text-secondry;
+        }
     }
 }
